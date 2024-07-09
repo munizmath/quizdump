@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>SeuQuiz - Treinamento de Dump para Provas e Certificações</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #312e2e; /* Fundo de tela ajustado para #312e2e */
+        }
+        .quiz-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 25px; /* Bordas mais arredondadas */
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+            width: 90%;
+            max-width: 500px;
+            text-align: center; /* Botões de seleção de quiz centralizados */
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h1 span {
+            font-style: italic; /* Palavra SeuQuiz em itálico */
+        }
+        p {
+            text-align: center; /* Frase centralizada */
+        }
+        .input-field {
+            position: relative;
+            display: inline-block; /* Caixas de entrada "Nome" e "E-mail" lado a lado */
+            margin: 0 10px;
+        }
+        input[type="text"], input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box; /* Faz com que o padding não aumente o tamanho total do input */
+            transition: padding 0.3s ease;
+        }
+        .quiz-option {
+            display: block;
+            width: 60%; /* Todos os botões de seleção de quiz têm o mesmo tamanho */
+            margin: 5px auto;
+            padding: 10px;
+            color: white;
+            background-color: #007BFF; /* Botões de seleção de quiz em tom de azul */
+            border: 2px solid #000; /* Arco preto ao redor dos botões de seleção de quiz */
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .quiz-option input {
+            display: none;
+        }
+        .quiz-option.active {
+            background-color: #5b5c5e; /* Ao selecionar o botão de seleção de quiz, ele altera a sua cor para #5b5c5e e fica estática */
+        }
+        input[type="submit"] {
+            background-color: #727272; /* Cor do botão "Confirmar" alterada para #727272 */
+            color: white;
+            padding: 10px 20px;
+            margin: 10px 0;
+            border: 2px solid #007BFF; /* Arco azul ao redor do botão "Confirmar" */
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #505250;
+        }
+        #results {
+            display: none;
+        }
+        #results p {
+            color: red; /* Dados preenchidos em vermelho */
+            font-weight: bold; /* Dados preenchidos em negrito */
+        }
+        .button {
+            display: inline-block; /* Botões "Voltar" e "Iniciar" lado a lado */
+            width: 28%; /* Botões "Voltar" e "Iniciar" têm o mesmo tamanho */
+            margin: 5px 1%;
+            padding: 10px;
+            color: white;
+            background-color: #007BFF; /* Botões "Voltar" e "Iniciar" em tom de azul */
+            border: 2px solid #000; /* Arco preto ao redor dos botões "Voltar" e "Iniciar" */
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #2eb140;
+        }
+    </style>
+    <script>
+        function submitQuiz() {
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var quiz = document.querySelector('.quiz-option.active').textContent;
+
+            document.getElementById('quiz-form').style.display = 'none';
+            var results = document.getElementById('results');
+            results.innerHTML = "<h1>Verifique suas informações</h1>" +
+                                "<p>Nome: " + name + "</p>" +
+                                "<p>E-mail: " + email + "</p>" +
+                                "<p>Quiz selecionado: " + quiz + "</p>" +
+                                "<p>Horário de início: " + new Date().toLocaleTimeString() + "</p>" +
+                                "<p>O tempo para conclusão é de uma hora.</p>" +
+                                "<p>Horário de finalização: " + new Date(new Date().getTime() + 60*60000).toLocaleTimeString() + "</p>" +
+                                "<div class='button' onclick='goBack()'>Voltar</div>" +
+                                "<div class='button' onclick='startQuiz()'>Iniciar</div>";
+            results.style.display = 'block';
+        }
+
+        function goBack() {
+            document.getElementById('quiz-form').style.display = 'block';
+            document.getElementById('results').style.display = 'none';
+        }
+
+        function startQuiz() {
+        var quiz = document.querySelector('.quiz-option.active').textContent;
+        var quizFile = "question_" + quiz.replace(" ", "_").toLowerCase() + ".json";
+        window.location.href = "/quiz-page.html?quiz=" + quizFile;
+    }
+
+        window.onload = function() {
+            var quizOptions = document.querySelectorAll('.quiz-option');
+            quizOptions.forEach(function(option) {
+                option.addEventListener('click', function() {
+                    quizOptions.forEach(function(option) {
+                        option.classList.remove('active');
+                    });
+                    this.classList.add('active');
+                });
+            });
+        }
+    </script>
+</head>
+<body>
+
+<div class="quiz-container">
+    <form id="quiz-form" action="javascript:void(0);" onsubmit="submitQuiz()">
+        <h1>Bem-vindo ao <span>SeuQuiz</span>!</h1>
+        <p>Insira seus dados e selecione o quiz:</p>
+
+        <div class="input-field">
+            <input type="text" id="name" name="name" placeholder="Nome" required>
+        </div>
+
+        <div class="input-field">
+            <input type="email" id="email" name="email" placeholder="E-mail" required>
+        </div><p></p>
+
+        <!-- Botões de seleção de quiz -->
+        <!-- Em um cenário real, provavelmente seriam botões de rádio ou um dropdown -->
+        <div class="quiz-option">
+            AWS Cloud Practitioner
+        </div>
+        <div class="quiz-option">
+            MS Azure Fundamentals
+        </div>
+        <div class="quiz-option">
+            COBIT 5 Foundation
+        </div><p></p><p></p>
+
+        <!-- Botão de confirmação -->
+        <input type="submit" value="CONFIRMAR">
+    </form>
+
+    <div id="results"></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1655 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "Quando é que um processo de TI secundário no COBIT 5 é identificado no suporte das metas de TI?",
+        "options": {
+          "A": "Quando este processo suporta um outro processo de TI.",
+          "B": "Quando um relacionamento primário não pode ser identificado em um processo de TI.",
+          "C": "Quando um processo tem força, porém, menos importância no suporte à meta de TI.",
+          "D": "Quando um processo é suporte primário para o atingimento de uma meta de TI."
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 2,
+        "question": "O que está relacionado diretamente com a Otimização de Recursos?",
+        "options": {
+          "A": "Otimização do risco.",
+          "B": "Metas definidas.",
+          "C": "Habilitador de Metas.",
+          "D": "Objetivos da Empresa."
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 3,
+        "question": "Qual termo é usado para descrever mudanças no ambiente interno e externo da empresa causado pela fusão com uma outra empresa?",
+        "options": {
+          "A": "Duplicação de recursos.",
+          "B": "Risco de TI.",
+          "C": "Gatilho de evento.",
+          "D": "Pontos de dor."
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 4,
+        "question": "Qual é o processo da Governança Corporativa de TI no Modelo de Referência de Processo?",
+        "options": {
+          "A": "Gestão do Modelo da estrutura de Gerenciamento de TI",
+          "B": "Gestão da Estratégia.",
+          "C": "Garantir a entrega de benefícios.",
+          "D": "Monitorar, Avaliar e Analisar o desempenho e a conformidade"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 5,
+        "question": "Como boas práticas, qual item pode ser incluído na estrutura de uma política?",
+        "options": {
+          "A": "Metas definidas.",
+          "B": "Categoria de Competência",
+          "C": "Declaração de ações.",
+          "D": "As consequências de falhas de conformidade."
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 6,
+        "question": "Qual é um dos recursos de serviços alavancados por meio de processos para entregar serviços internos e externos?",
+        "options": {
+          "A": "Dados.",
+          "B": "Informação.",
+          "C": "Metas de TI.",
+          "D": "Políticas."
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 7,
+        "question": "Qual característica é necessária para a boa política?",
+        "options": {
+          "A": "Flexível.",
+          "B": "Intrusiva.",
+          "C": "Limitada em número.",
+          "D": "Eficiente"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 8,
+        "question": "Qual item NÃO é um habilitador de governança?",
+        "options": {
+          "A": "Partes interessadas.",
+          "B": "Modelos de Trabalho.",
+          "C": "Princípios.",
+          "D": "Estruturas."
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 9,
+        "question": "O que é criado pelo Conhecimento no Ciclo da informação?",
+        "options": {
+          "A": "Informação.",
+          "B": "Processo.",
+          "C": "Dados.",
+          "D": "Valor."
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 10,
+        "question": "Qual NÃO é o benefício da abordagem da avaliação de capacidade do COBIT?",
+        "options": {
+          "A": "Prover a arquitetura de descrição dos relacionamentos entre os processos.",
+          "B": "Confirmar que o processo está atingindo o propósito.",
+          "C": "Estar alinhado com um padrão geral de avaliação de processo.",
+          "D": "Melhorar a confiabilidade de repetibilidade das avaliações de processo."
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 11,
+        "question": "Qual requerimento está relacionado ao habilitador Princípios, Políticas e Modelos?",
+        "options": {
+          "A": "Expressar os valores principais da empresa.",
+          "B": "Descrever o resultado esperado de um processo.",
+          "C": "Prover uma cobertura compreensiva para a empresa.",
+          "D": "Prover um fluxo lógico para a equipe alinhar-se com o modelo."
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 12,
+        "question": "Qual o nome do princípio de arquitetura que governa o uso de TI para os recursos relacionados às necessidades de mudança do negócio?",
+        "options": {
+          "A": "Agilidade.",
+          "B": "Reuso.",
+          "C": "Abertura.",
+          "D": "Simplicidade."
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 13,
+        "question": "Identifique a palavra perdida na sentença abaixo. Governança tem o objetivo de garantir que as necessidades da parte interessada sejam avaliadas para determinar que os objetivos [?] sejam atingidos.",
+        "options": {
+          "A": "Da parte interessada.",
+          "B": "Do habilitador.",
+          "C": "De TI.",
+          "D": "De empresa."
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 14,
+        "question": "Qual atividade compõe uma boa prática para o habilitador Estruturas Organizacionais?",
+        "options": {
+          "A": "Publicar uma agenda do quadro de reuniões com antecedência.",
+          "B": "Identificar apropriadamente os membros internos ou externos.",
+          "C": "Definir a estrutura de delegação de direto de decisão.",
+          "D": "Estabelecer os limites de decisão da estrutura organizacional."
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 15,
+        "question": "Qual processo está incluído no domínio do processo de Entrega, Serviço e Suporte do gerenciamento da Empresa de TI?",
+        "options": {
+          "A": "Controle de Segurança.",
+          "B": "Controle de Acesso.",
+          "C": "Controle de Fornecedores.",
+          "D": "Controle de Continuidade."
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 16,
+        "question": "Qual é propósito do guia de autoavaliação do COBIT?",
+        "options": {
+          "A": "Prover a descrição de um ciclo de vida para governança e gerenciamento da empresa de TI.",
+          "B": "Prover em detalhe como construir a descrição de um processo.",
+          "C": "Prover uma abordagem menos rigorosa da avaliação de um processo.",
+          "D": "Combinar processos do COBIT 5 com ISSO 15504 para uma robusta avaliação de abordagem."
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 17,
+        "question": "Quais os benefícios de uma efetiva política de ciclo de vida?",
+        "options": {
+          "A": "Apoiar no alcance das metas definidas.",
+          "B": "Definir a Arquitetura da Empresa para a empresa.",
+          "C": "Expressar o valor principal da empresa.",
+          "D": "Traduzir as necessidades da parte interessada em metas atingíveis."
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 18,
+        "question": "Quais itens não descrevem uma categoria do Habilitador de Metas do COBIT 5?",
+        "options": {
+          "A": "Resultados exatos e objetivos.",
+          "B": "Servir ao propósito.",
+          "C": "Disponibilizar quando necessário.",
+          "D": "Boas práticas podem ser definidas."
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 19,
+        "question": "Identifique a palavra perdida na sentença abaixo: O Gerente de Continuidade do Negócio é o indivíduo que enxerga a capacidade de continuidade do negócio da empresa, para garantir que as funções [?] da empresa continuem a operar seguindo eventos divididos.",
+        "options": {
+          "A": "Críticas.",
+          "B": "Administrativas.",
+          "C": "De TI.",
+          "D": "De segurança."
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 20,
+        "question": "Identifique a palavra perdida na sentença abaixo: De acordo com o COBIT 5, um processo é definido como “coleção de [?] influenciada pelas políticas e procedimentos da empresa o qual pega as entradas de um número de recursos, manipula as entradas e produz as saídas”.",
+        "options": {
+          "A": "Atividades.",
+          "B": "Metas.",
+          "C": "Objetivos.",
+          "D": "Habilitadores."
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 21,
+        "question": "Qual atributo é aplicado à atividade do processo?",
+        "options": {
+          "A": "Provê declaração de ações para entrega de benefícios.",
+          "B": "Considera as entradas e saídas dos processos.",
+          "C": "Cobre os papéis de negócio e TI.",
+          "D": "Provê passos prescritivos."
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 22,
+        "question": "Qual papel no modelo de Funções, Atividades e Relacionamentos do COBIT 5 é responsável por instruir e alinhar a operação?",
+        "options": {
+          "A": "Parte interessada.",
+          "B": "Proprietário.",
+          "C": "Gerenciamento.",
+          "D": "Corpo Diretivo."
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 23,
+        "question": "Por que um caso de negócio é importante para alavancar um programa de iniciação do COBIT 5?",
+        "options": {
+          "A": "Foca na sustentabilidade operacional da nova iniciativa.",
+          "B": "Guia a criação de valor de negócio.",
+          "C": "Planeja soluções práticas definindo projetos.",
+          "D": "Estabelece estruturas adequadas para supervisão e orientação."
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 24,
+        "question": "Por que o COBIT 5 é considerado uma estrutura única e integrada?",
+        "options": {
+          "A": "Ele prove uma fonte de orientação integrada usando uma linguagem técnica acessível.",
+          "B": "Ele produz um produto customizado para indústrias especificas.",
+          "C": "A base de conhecimento contém somente as orientações atuais e futuras da ISACA.",
+          "D": "Incorpora todo conhecimento prévio distribuído nas diversas estruturas da ISACA."
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 25,
+        "question": "Qual domínio requer MAIS conhecimentos do processo de Gerenciamento de Disponibilidade e Gestão de Problema?",
+        "options": {
+          "A": "Monitorar, avaliar, analisar. (MEA)",
+          "B": "Entrega, Serviço e Suporte. (DSS)",
+          "C": "Avaliar, Direcionar e Monitorar. (EDM)",
+          "D": "Alinhar, Planejar e Organizar. (APO)"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 26,
+        "question": "Qual nome é usado para identificar o prefixo de domínio e o número do processo no Guia de Referência de Processos do COBIT 5?",
+        "options": {
+          "A": "Descrição do processo",
+          "B": "Declaração de propósito do processo",
+          "C": "Identificação do processo",
+          "D": "Nome do domínio"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 27,
+        "question": "Qual afirmação NÃO é um objetivo na avaliação de desempenho do processo de capacidade?",
+        "options": {
+          "A": "Permitir um alto Nível de verificações “como está” e “como deve estar” de acordo com a melhoria do processo.",
+          "B": "Disponibilizar gerenciamento com níveis de avaliação para mensurar e monitorar a capacidade atual.",
+          "C": "Disponibilizar análise de lacunas e melhorias nas informações de planejamento.",
+          "D": "Permitir gerenciamento de verificação de desempenho de conformidade do processo."
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 28,
+        "question": "Qual afirmação descreve um alto Nível de característica de governança na prática de um processo?",
+        "options": {
+          "A": "Estar alinhada com os padrões aceitos.",
+          "B": "Apoiar a criação de regras claras",
+          "C": "Disponibilizar práticas prescritivas.",
+          "D": "Considerar as entradas e saídas dos processos."
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 29,
+        "question": "Qual a diferença entre indicadores de desempenho do processo e indicadores de capacidade do processo?",
+        "options": {
+          "A": "Indicadores de desempenho do Processo usam práticas genéricas na avaliação, enquanto os indicadores de capacidade do Processo usam práticas específicas de avaliação em todos os níveis.",
+          "B": "Indicadores de desempenho de Processo são específicos somente para o Nível 1, enquanto os indicadores de capacidade do Processo se aplicam para todos os Níveis de capacidade.",
+          "C": "Indicadores de desempenho do Processo se aplicam aos Níveis 1 a 5, enquanto os indicadores de capacidade do Processo são específicos apenas para o Nível 1.",
+          "D": "Indicadores de desempenho do Processo se aplicam somente aos Níveis 0 e 1, enquanto os indicadores de capacidade do Processo se aplicam a todos os Níveis de capacidade."
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 30,
+        "question": "Qual papel na tabela RACI está relacionado com prover entradas para um processo?",
+        "options": {
+          "A": "Informado.",
+          "B": "Encarregado.",
+          "C": "Responsável.",
+          "D": "Consultado."
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 31,
+        "question": "Qual informação deve estar incluída em um caso de negócio?",
+        "options": {
+          "A": "As soluções propostas detalhadas e as definições da iniciativa.",
+          "B": "Papéis e responsabilidades da empresa.",
+          "C": "Requerimentos de melhoria contínua.",
+          "D": "Os benefícios esperados em operar de maneira diferente."
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 32,
+        "question": "Qual afirmação descreve o uso do Modelo de informação?",
+        "options": {
+          "A": "Por categorizar somente informação automatizada.",
+          "B": "Aumentar o valor intrínseco da informação.",
+          "C": "Endereçar problemas de qualidade como novas aplicações.",
+          "D": "Dar suporte com especificações de informações."
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 33,
+        "question": "Qual habilitador é descrito por ser o produto chave da empresa?",
+        "options": {
+          "A": "Estrutura Organizacional.",
+          "B": "Processos.",
+          "C": "Informação.",
+          "D": "Princípios, Políticas e Modelos."
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 34,
+        "question": "Qual afirmação é verdadeira no que diz respeito ao impacto que os Princípios, Políticas e Estruturas tem em outros habilitadores?",
+        "options": {
+          "A": "Estrutura Organizacional é o veículo mais importante para executar políticas.",
+          "B": "Estruturas são também informações, portanto todas as boas práticas aplicadas à informação, são aplicadas às estruturas.",
+          "C": "Boas políticas são aplicadas à informação e também aos princípios",
+          "D": "As atividades da estrutura organizacional são definidas por políticas."
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 35,
+        "question": "Qual é o objetivo do Modelo de Referência de Processos (PRM) em relação ao Modelo de Avaliação de Processo (PAM)?",
+        "options": {
+          "A": "Ser a base de dimensão da capacidade a qual define o método de graduação de acordo com a ISSO 15504.",
+          "B": "Permitir ao PAM mapear os objetivos e saídas do processo de PRM.",
+          "C": "Descrever como ser responsável por uma avaliação baseada na ISSO/IEC 15504.",
+          "D": "Prover atributos genéricos para os níveis 1, 3, 4 e 5."
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 36,
+        "question": "Como é chamado o critério específico que indica que a informação está completa e livre de falhas?",
+        "options": {
+          "A": "Integridade",
+          "B": "Conformidade",
+          "C": "Efetividade",
+          "D": "Confiabilidade"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 37,
+        "question": "Identifique a palavra que falta na frase a seguir: A meta de disseminação do COBIT 5 é usada para traduzir as necessidades da parte interessada em metas [?] em todo nível e toda área da empresa.",
+        "options": {
+          "A": "Específicas",
+          "B": "Dos habilitadores",
+          "C": "De TI",
+          "D": "De Negócio"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 38,
+        "question": "Qual opção abaixo é uma boa prática que pode ser publicada para encorajar o comportamento desejado em uma empresa?",
+        "options": {
+          "A": "Delegação de procedimento de autoridade",
+          "B": "Procedimento de escalação",
+          "C": "Procedimento de incentivo a funcionários",
+          "D": "Princípios operacionais"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 39,
+        "question": "Qual termo é usado para descrever como a implementação da governança não deve ser vista como um projeto isolado?",
+        "options": {
+          "A": "Ciclo de melhoria contínua",
+          "B": "Capacitação de mudança",
+          "C": "Sustentar",
+          "D": "Gerenciamento do programa"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 40,
+        "question": "Quais influências direcionadoras a parte interessada precisa?",
+        "options": {
+          "A": "Indicadores de liderança",
+          "B": "Qualidade intrínseca",
+          "C": "Boas Práticas",
+          "D": "Mudanças de Negócio"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 41,
+        "question": "Que consideração precisa ser levada em conta na empresa com respeito à cultura?",
+        "options": {
+          "A": "Saídas do processo podem não ser atingidas se o comportamento não for compatível.",
+          "B": "Um perfeito desenho do processo não precisa levar em conta a cultura.",
+          "C": "Estruturas organizacionais trabalham melhor se desenhados de acordo com pautas pessoais.",
+          "D": "Comportamentos desejados só devem ser comunicados em princípios."
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 42,
+        "question": "Por que as empresas existem?",
+        "options": {
+          "A": "Para minimizar benefícios das partes interessadas.",
+          "B": "Para maximizar riscos das partes interessadas.",
+          "C": "Para mitigar riscos das partes interessadas.",
+          "D": "Para criar valor para as partes interessadas."
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 43,
+        "question": "Qual das opções abaixo NÃO é um fator ambiental que pode ser levado em consideração no desenho de um plano de implementação para a governança e gerenciamento de TI?",
+        "options": {
+          "A": "Problemas na entrega do serviço",
+          "B": "Falha para atingir requerimentos regulatórios",
+          "C": "Indicador de atraso",
+          "D": "Cultura e ética"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 44,
+        "question": "Qual o nome dado ao mecanismo de comunicação que expressa os valores fundamentais da empresa, mas podem ser concisos e diretos?",
+        "options": {
+          "A": "Princípios",
+          "B": "Políticas",
+          "C": "Estruturas",
+          "D": "Práticas"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 45,
+        "question": "Qual é o nome da fase do ciclo de vida de Capacitação de Mudança que suporta a Fase 5 – Como chegaremos lá?",
+        "options": {
+          "A": "Definir mapa de atividade",
+          "B": "Planejar o programa",
+          "C": "Executar o plano",
+          "D": "Operar e usar"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 46,
+        "question": "Um processo Executado tem qual nível de capacidade?",
+        "options": {
+          "A": "Nível 0",
+          "B": "Nível 1",
+          "C": "Nível 4",
+          "D": "Nível 5"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 47,
+        "question": "Qual aspecto descreve a chave de princípios “identificando as necessidades da Parte Interessada” do COBIT 5?",
+        "options": {
+          "A": "Cobrir todas as funções e processos dentro da empresa.",
+          "B": "Apoiar a criação de valor do negócio através do uso de TI",
+          "C": "Definir habilitadores que ajudem a atingir os objetivos da empresa",
+          "D": "Servir como uma estrutura de apoio para a governança e gerenciamento da empresa de TI."
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 48,
+        "question": "Qual é o propósito do mecanismo de Objetivos em cascata do COBIT 5?",
+        "options": {
+          "A": "Definir a relação entre governança e gerenciamento",
+          "B": "Garantir que os programas de mudança de negócios sejam gerenciados",
+          "C": "Prover uma arquitetura simples",
+          "D": "Traduzir necessidades das partes interessadas em estratégia"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 49,
+        "question": "Por que o COBIT 5 é considerado uma estrutura integrada?",
+        "options": {
+          "A": "Ele integra os objetivos da empresa com os objetivos relacionados a TI",
+          "B": "Ele se integra a qualquer sistema de governança",
+          "C": "Ele integra objetivos relacionados a TI com habilitadores",
+          "D": "Ele se alinha com outros padrões relevantes"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 50,
+        "question": "Que mecanismo pode definir e implementar políticas dentro de sua amplitude de controle?",
+        "options": {
+          "A": "Estruturas Organizacionais",
+          "B": "Práticas de Processo",
+          "C": "Estrutura de Governança",
+          "D": "Regras e Normas"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 51,
+        "question": "Que atributo está associado a um processo já estabelecido?",
+        "options": {
+          "A": "Definição do Processo",
+          "B": "Medida do Processo",
+          "C": "Otimização do Processo",
+          "D": "Gerenciamento de Desempenho"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 52,
+        "question": "Que facilitador descreve um conjunto organizado de práticas e atividades?",
+        "options": {
+          "A": "Estruturas organizacionais",
+          "B": "Serviços, Infraestrutura e Aplicações",
+          "C": "Princípios, Políticas e Estruturas",
+          "D": "Processos"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 53,
+        "question": "Que componente do Ciclo de Vida de Implementação se refere aos aspectos culturais e comportamentais?",
+        "options": {
+          "A": "Equipe de Implementação de formulário",
+          "B": "Ciclo de vida de Melhoria Contínua",
+          "C": "Gerenciamento de programa",
+          "D": "Facilitação de Mudança"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 54,
+        "question": "Que tipo de objetivo do processo é personalizado de acordo com a situação específica de uma empresa?",
+        "options": {
+          "A": "TI",
+          "B": "Acessibilidade e segurança",
+          "C": "Intrínseco",
+          "D": "Contextual"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 55,
+        "question": "Que opção NÃO constitui um benefício de usar a Avaliação da Habilidade do Processo do COBIT 5 ao invés da abordagem da Avaliação de Maturidade do COBIT 4.1?",
+        "options": {
+          "A": "Maior confiabilidade e repetibilidade da avaliação da habilidade de um processo",
+          "B": "Fornece conformidade com uma norma de habilidade do processo geralmente aceita",
+          "C": "Substitui a abordagem da Avaliação de Maturidade da Habilidade do COBIT 4.1",
+          "D": "Aumenta a usabilidade dos resultados da avaliação da habilidade do processo"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 56,
+        "question": "Que motivador influencia as necessidades das partes interessadas?",
+        "options": {
+          "A": "Novas tecnologias",
+          "B": "Gerenciamento de desempenho de TI",
+          "C": "Continuidade do serviço de negócio",
+          "D": "Agilidade de TI"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 57,
+        "question": "Que prática é usada quando um comitê de gestão tem um problema que não é capaz de resolver em seu nível?",
+        "options": {
+          "A": "Delegação de autoridade",
+          "B": "Procedimentos de escalada",
+          "C": "Amplitude de controle",
+          "D": "Nível de autoridade"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 58,
+        "question": "Que elemento do COBIT 5 o torna uma estrutura integrada?",
+        "options": {
+          "A": "Ele define princípios, políticas e procedimentos, que são facilitadores do processo",
+          "B": "Ela relaciona governança com gestão",
+          "C": "Ela identifica todos os processos de TI",
+          "D": "Ele cobre toda a empresa"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 59,
+        "question": "Que perspectiva de informação está associada a uma diretiva do COBIT 5?",
+        "options": {
+          "A": "Governança",
+          "B": "Gestão",
+          "C": "Manutenção",
+          "D": "Negócio"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 60,
+        "question": "Que termo é usado para descrever um conjunto organizado de práticas e atividades para alcançar certos objetivos?",
+        "options": {
+          "A": "Informação",
+          "B": "Princípios, Políticas e Estruturas",
+          "C": "Processos",
+          "D": "Estruturas Organizacionais"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 61,
+        "question": "O que é um exemplo de comportamento individual que é relevante para a Cultura, Ética e para o facilitador de comportamento?",
+        "options": {
+          "A": "Comunicação do código de conduta da empresa",
+          "B": "Abordagem no sentido do cumprimento da política da empresa",
+          "C": "Comunicação do comportamento desejado pela gestão",
+          "D": "Incentivos a encorajar o comportamento desejado"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 62,
+        "question": "Identifique a palavra que falta na frase abaixo: Os processos de TI e de Negócios são orientados principalmente pelo(a) [?] que eles criam.",
+        "options": {
+          "A": "Dado",
+          "B": "Valor",
+          "C": "Informação",
+          "D": "Conhecimento"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 63,
+        "question": "Qual é um propósito do Modelo de Referência do Processo?",
+        "options": {
+          "A": "Prover a base para um ou mais Modelos de Avaliação de Processo",
+          "B": "Reunir todas as práticas Genéricas e produtos de Trabalho",
+          "C": "Combinar a dimensão de processo e habilidade",
+          "D": "Ser usado como modelo para o relatório de avaliação"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 64,
+        "question": "Qual parte interessada é externa?",
+        "options": {
+          "A": "Conselho de Administração",
+          "B": "Administração",
+          "C": "Equipe",
+          "D": "Parceiro de negócio"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 65,
+        "question": "Quantos processos existem no domínio Construir, Adquirir e Implementar (BAI) no Modelo de Referência do Processo?",
+        "options": {
+          "A": "3",
+          "B": "6",
+          "C": "10",
+          "D": "13"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 66,
+        "question": "Que atributo descreve a informação para a atividade requerida com profundidade e amplitude suficientes?",
+        "options": {
+          "A": "Relevância",
+          "B": "Integralidade",
+          "C": "Atualidade",
+          "D": "Compreensibilidade"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 67,
+        "question": "O que os Processos produzem como resultado de sua operação?",
+        "options": {
+              "A": "Estruturas",
+              "B": "Aspectos comportamentais",
+              "C": "Informação",
+              "D": "Objetivos de TI"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 68,
+        "question": "Identifique as palavras que faltam na frase abaixo: Na elaboração de um plano de implementação ou roteiro do COBIT 5, fatores ambientais como habilidades e [?], são importantes.",
+        "options": {
+          "A": "Análise de diferença",
+          "B": "Melhorias de processo",
+          "C": "Recursos disponíveis",
+          "D": "Conformidade com uma norma de avaliação do processo"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 69,
+        "question": "Qual é o domínio de processo MAIS adequado para habilidades, como revisão de conformidade e auditoria de controles?",
+        "options": {
+          "A": "Monitorar, Analisar e Avaliar (MEA)",
+          "B": "Entregar, Serviço e Suporte (DSS)",
+          "C": "Construir, Adquirir e Implementar (BAI)",
+          "D": "Alinhar, Planejar e Organizar (APO)"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 70,
+        "question": "Que nível de classificação um processo deve atingir para ser aprovado em uma avaliação?",
+        "options": {
+          "A": "P – Parcial e A – Amplamente",
+          "B": "A – Amplamente e T – Totalmente",
+          "C": "T – Totalmente",
+          "D": "A – Amplamente"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 71,
+        "question": "Identifique a palavra que falta na frase abaixo: Realizar benefícios a um custo ideal de recursos, otimizando [?] é um meio de criação de valor",
+        "options": {
+          "A": "Segurança",
+          "B": "Risco",
+          "C": "Desempenho",
+          "D": "Conformidade"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 72,
+        "question": "Que mecanismo é usado para comunicar valores corporativos e comportamento desejado?",
+        "options": {
+          "A": "Estruturas organizacionais",
+          "B": "Incentivos",
+          "C": "Princípios e Políticas",
+          "D": "Procedimentos de escalada"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 73,
+        "question": "Que habilidade de serviço é alavancada por meio de processos para entregar serviços internos e externos?",
+        "options": {
+          "A": "Conformidade",
+          "B": "Informação",
+          "C": "Eficiência",
+          "D": "Políticas"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 74,
+        "question": "Que requisito descreve a categoria de objetivos do facilitador 'Qualidade Intrínseca'?",
+        "options": {
+          "A": "Os resultados são exatos e objetivos",
+          "B": "As saídas são acessíveis e seguras",
+          "C": "Os resultados são relevantes e completos",
+          "D": "As saídas estão aptas para o negócio"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 75,
+        "question": "Qual informação deve constar em um caso de negócio?",
+        "options": {
+          "A": "As soluções propostas e as definições da iniciativa",
+          "B": "Uma meta de melhoria para diferenças (gaps) e soluções identificadas",
+          "C": "Os papéis, responsabilidades e responsabilização relacionados à iniciativa",
+          "D": "Um esboço das novas operações criadas a partir da iniciativa do programa"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 76,
+        "question": "Qual é o propósito da estrutura integradora do COBIT 5 (COBIT 5 Integrator Framework)?",
+        "options": {
+          "A": "Relacionar o COBIT 5 a outras normas e estruturas",
+          "B": "Relacionar Governança à Gestão",
+          "C": "Relacionar os processos de gerenciamento de Planejar, Construir, Executar e Monitorar",
+          "D": "Relacionar as necessidades das partes interessadas com os objetivos da empresa"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 77,
+        "question": "Qual é o nome dado à entidade responsável por apoiar gerentes de programas e projetos?",
+        "options": {
+          "A": "Comitê de Risco da Empresa",
+          "B": "Comitê Diretivo de Programas e Projetos",
+          "C": "Escritório de Gerenciamento de Programas e Projetos",
+          "D": "Escritório de Gerenciamento de Valor"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 78,
+        "question": "Qual dos itens abaixo é um dos orientadores para o desenvolvimento de uma estrutura como o COBIT 5?",
+        "options": {
+          "A": "Prover uma melhor otimização da funcionalidade dos processos de negócios",
+          "B": "Prover o atingimento da excelência operacional por meio da aplicação confiável e eficiente da tecnologia",
+          "C": "Prover a execução de programas de entrega de benefícios dentro do prazo e do orçamento",
+          "D": "Prover um melhor controle sobre o aumento das soluções de TI controladas pelo usuário e iniciadas pelo usuário"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 79,
+        "question": "Que camada de informação inclui interfaces de usuário como exemplo de um de seus atributos?",
+        "options": {
+          "A": "Pragmática",
+          "B": "Empírica",
+          "C": "Mundo Social",
+          "D": "Mundo físico"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 80,
+        "question": "O que um 'indicador de Atraso (Lag Indicator)' mede?",
+        "options": {
+          "A": "Se os objetivos do facilitador são atingidos",
+          "B": "Se as boas práticas são aplicadas",
+          "C": "Se o ciclo de vida do facilitador é gerenciado",
+          "D": "Se a governança é gerenciada"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 81,
+        "question": "Qual objetivo é um propósito do elemento Políticas, dentro do modelo de princípios, políticas e estruturas?",
+        "options": {
+          "A": "Expressar os valores fundamentais da empresa",
+          "B": "Descrever o resultado desejado de um processo",
+          "C": "Ser aberto e flexível para garantir que as políticas atinjam o propósito estabelecido",
+          "D": "Fornecer um fluxo lógico para a equipe que precise cumpri-lo"
+        },
+         "correctAnswer": "A"
+      },
+      {
+        "id": 82,
+        "question": "Por que uma empresa faria uma avaliação da habilidade do processo?",
+        "options": {
+          "A": "Como parte de uma auditoria de conformidade",
+          "B": "Para melhorar continuamente a efetividade da empresa",
+          "C": "Para testar os controles internos de um processo de TI",
+          "D": "Para confirmar quais práticas de gerenciamento estão sendo usadas"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 83,
+        "question": "Qual destes é um dos cinco processos de Governança do Modelo de Referência do Processo?",
+        "options": {
+          "A": "Gerenciar a Configuração",
+          "B": "Gerenciar os serviços de Segurança",
+          "C": "Assegurar Otimização de Riscos",
+          "D": "Gerenciar Fornecedores"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 84,
+        "question": "Como é conhecido o conjunto de práticas influenciadas elas políticas e procedimentos da empresa que recebe entradas de várias fontes, manipula essas entradas e produz saídas?",
+        "options": {
+          "A": "Processo",
+          "B": "Objetivos intrínsecos",
+          "C": "Objetivos da empresa",
+          "D": "Dimensões"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 85,
+        "question": "Qual aspecto da Cultura, Ética e Comportamento é uma boa prática para encorajar o comportamento desejado em toda a empresa?",
+        "options": {
+          "A": "Procedimentos de escalada",
+          "B": "Suporte gerencial",
+          "C": "Ética individual",
+          "D": "Delegação de autoridade"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 86,
+        "question": "Que objetivos se organizam em cascata em relação aos Objetivos relacionados a TI na Cascata de Objetivos do COBIT 5?",
+        "options": {
+          "A": "Os objetivos cascateados diretamente a partir das necessidades das partes interessadas",
+          "B": "Os objetivos cascateados diretamente a partir dos direcionadores das partes interessadas",
+          "C": "Os objetivos cascateados diretamente a partir das Metas do Facilitador",
+          "D": "Os objetivos que usam os balanced scorecards de TI"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 87,
+        "question": "Que atividade se aplica a uma Atividade de Processo?",
+        "options": {
+          "A": "Atinge o propósito declarado",
+          "B": "Suporta papéis e responsabilidades claras",
+          "C": "Provê etapas prescritivas",
+          "D": "Provê declarações de ações destinadas a entregar benefícios"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 88,
+        "question": "Que característica se relaciona a práticas de Processo?",
+        "options": {
+          "A": "Implementa políticas dentro de seu âmbito de controle",
+          "B": "São um veículo para a execução de políticas",
+          "C": "Reflete o comportamento desejado",
+          "D": "São abertas e flexíveis"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 89,
+        "question": "Qual é uma das vantagens de usar o COBIT 5?",
+        "options": {
+          "A": "Suporta empresas em alcançar objetivos estratégicos e obter benefícios de negócios por meio do uso eficaz e inovador da TI",
+          "B": "Endereça a crescente dependência do sucesso da empresa em negócios externos e parceiros de TI, como terceiros e outros prestadores de serviços",
+          "C": "Responde as perguntas “Eu tenho pessoal de TI suficiente?” e “Como posso desenvolver e manter suas habilidades?”",
+          "D": "Provê a entrega de programas dentro do prazo e do orçamento ao mesmo tempo em que atende aos requisitos e aos padrões de qualidade"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 90,
+        "question": "Qual é a principal diferença entre uma prática de base e uma prática genérica no modelo de habilidade do processo?",
+        "options": {
+          "A": "Não existe nenhuma diferença, elas são usadas para todos os processos e todas as dimensões.",
+          "B": "Práticas genéricas suportam os resultados específicos do processo, práticas de base suportam todos os resultados do processo.",
+          "C": "As práticas de base contribuem para a realização do propósito específico do processo. Práticas genéricas são atividades de um tipo específico que suportam atributos de habilidades dos níveis 2 a 5.",
+          "D": "As práticas genéricas definem os objetivos de alto nível de um processo, as práticas de base definem os objetivos relacionados a TI."
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 91,
+        "question": "Qual item NÃO é considerado uma boa prática para ser incluída em uma estrutura de política?",
+        "options": {
+          "A": "Escopo e validade",
+          "B": "Meios para lidar com exceções",
+          "C": "Requisitos de conformidade",
+          "D": "Objetivos definidos"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 92,
+        "question": "Qual papel é responsável pela Definição de Direção no modelo de Papéis, atividades e relacionamentos do COBIT 5?",
+        "options": {
+          "A": "Parte interessada",
+          "B": "Proprietário",
+          "C": "Corpo Diretivo",
+          "D": "Gestão"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 93,
+        "question": "Qual é o nome do princípio de arquitetura que atende às necessidades de mudança de negócio com eficácia eficiência?",
+        "options": {
+          "A": "Reuso",
+          "B": "Agilidade",
+          "C": "Simplicidade",
+          "D": "Abertura"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 94,
+        "question": "Que objetivo descreve o propósito do mecanismo Objetivos em Cascata do COBIT 5?",
+        "options": {
+          "A": "Traduzir as necessidades das partes interessadas em objetivos viáveis",
+          "B": "Influenciar se algo funcionará",
+          "C": "Prover uma arquitetura simples",
+          "D": "Definir a relação entre Governança e Gerenciamento"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 95,
+        "question": "Qual benefício NÃO é fornecido por uma boa estrutura de política?",
+        "options": {
+          "A": "Uma estrutura para consistência",
+          "B": "Um ponto fácil de navegação",
+          "C": "Suporta o ciclo de vida das políticas",
+          "D": "Uma declaração completa de ações"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 96,
+        "question": "Quando os Objetivos do Facilitador podem ser identificados?",
+        "options": {
+          "A": "Quando as necessidades das partes interessadas tiverem sido acordadas",
+          "B": "Imediatamente após o desenvolvimento dos Objetivos da Empresa",
+          "C": "Quando o mapeamento dos Objetivos da Empresa em relação aos Objetivos Relacionados a TI estiver concluído",
+          "D": "Quando o equilíbrio tiver sido decidido entre realização de benefícios e otimização de riscos e recursos"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 97,
+        "question": "Identifique a(s) palavra(s) que falta(m) na seguinte frase: A efetividade dos processos em alcançar seus/suas [?] é examinada e determinada por um processo de avaliação.",
+        "options": {
+          "A": "Metas financeiras",
+          "B": "Objetivos",
+          "C": "Níveis de maturidade",
+          "D": "Níveis de habilidade"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 98,
+        "question": "Que características é essencial para uma Prática de Processo?",
+        "options": {
+          "A": "Provê declarações de ações para entrega de benefícios",
+          "B": "Suporta a definição de papéis claros",
+          "C": "Provê requisitos prescritivos",
+          "D": "Considera entradas e saídas do processo"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 99,
+        "question": "Em que ordem a governança corporativa de TI ocorre no COBIT 5?",
+        "options": {
+          "A": "Planejar, Construir, Executar e Monitorar",
+          "B": "Monitorar, Dirigir, Avaliar",
+          "C": "Construir, Executar, Planejar, Monitorar",
+          "D": "Avaliar, Dirigir e Monitorar"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 100,
+        "question": "Em que nível se encontra um processo Estabelecido?",
+        "options": {
+          "A": "Nível 1",
+          "B": "Nível 2",
+          "C": "Nível 3",
+          "D": "Nível 4"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 101,
+        "question": "Qual afirmação é a razão MAIS importante para o uso de uma estrutura como o COBIT 5?",
+        "options": {
+          "A": "Suportar os processos de negócio, integrando aplicações e tecnologia em processos de negócios",
+          "B": "Ajudar as empresas a criar valor ideal a partir da TI, mantendo um equilíbrio entre a realização de benefícios e a otimização dos níveis de risco",
+          "C": "Permitir que requisitos de negócio para regulamentos e leis externos sejam suportados pela TI",
+          "D": "Ser capaz de ser mapeado em relação a outros padrões e orientações no mercado"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 102,
+        "question": "Qual afirmação relacionada à habilidade e maturidade NÃO está correta?",
+        "options": {
+          "A": "A maturidade organizacional tem uma relação com a realização dos objetivos de negócios da organização",
+          "B": "A avaliação da maturidade é feita em um nível da empresa ou da organização, e a avaliação de habilidade é feita em um nível de processo",
+          "C": "A avaliação da maturidade pode usar os resultados de uma avaliação da habilidade",
+          "D": "As avaliações da maturidade e da habilidade são definidas apenas pelo CMMI (Modelo de Maturidade de Habilidade – Integrado), NÃO pela ISO15504"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 103,
+        "question": "Que opção é um fator ambiental do qual a empresa depende ao elaborar seu plano de implementação?",
+        "options": {
+          "A": "Comunicação eficaz das mudanças necessárias",
+          "B": "Habilidades e recursos disponíveis",
+          "C": "Adaptação do COBIT para se ajustar ao contexto específico da empresa",
+          "D": "Focar em vitórias rápidas e melhorias."
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 104,
+        "question": "Qual é o nome da Fase do ciclo de vida da Facilitação de Mudança que suporta a “Fase 4 – O que precisa ser feito”?",
+        "options": {
+          "A": "Identificar atores",
+          "B": "Definir estado da meta",
+          "C": "Planejar programa",
+          "D": "Definir os problemas e oportunidades"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 105,
+        "question": "Que item descreve um componente essencial de um Sistema de Governança?",
+        "options": {
+          "A": "Definir a Estrutura de Governança",
+          "B": "Identificar as responsabilidades da governança",
+          "C": "Garantir a conformidade com regulamentos",
+          "D": "Otimização de ativos de TI, recursos e habilidades"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 106,
+        "question": "Qual é o propósito do mecanismo de Objetivos em cascata do COBIT 5?",
+        "options": {
+          "A": "Definir a relação entre Governança e Gerenciamento",
+          "B": "Garantir que os programas de mudança de negócios sejam gerenciados",
+          "C": "Prover uma arquitetura simples",
+          "D": "Traduzir as necessidades das partes interessadas em estratégia"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 107,
+        "question": "Que tipo de objetivo de processo só é conhecido e utilizado por aqueles que precisam dele?",
+        "options": {
+          "A": "Confidencialidade",
+          "B": "Intrínseco",
+          "C": "Acessibilidade e segurança",
+          "D": "Contextual"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 108,
+        "question": "Que papel o Corpo de Governança desempenha na governança e no gerenciamento de TI da empresa?",
+        "options": {
+          "A": "Delega e é responsabilizado pela governança de TI da empresa",
+          "B": "Opera, executa e se reporta à gerência",
+          "C": "Instrui, alinha e monitora o desempenho",
+          "D": "Define direção e é responsável perante os Proprietários e as partes interessadas"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 109,
+        "question": "Que aspecto se relaciona com o princípio do COBIT 5 “Atendimento das Necessidades das Partes Interessadas?",
+        "options": {
+          "A": "Alinha-se com as últimas opiniões sobre Governança",
+          "B": "Traduz requisitos das partes interessadas em estratégia",
+          "C": "Provê uma arquitetura simples",
+          "D": "Define a relação entre Governança e Gerenciamento"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 110,
+        "question": "Que prática NÃO ajudaria a estimular o comportamento desejado em uma empresa?",
+        "options": {
+          "A": "Introduzir um sistema de bônus",
+          "B": "Comunicar a aplicação de políticas",
+          "C": "Divulgar os campeões de negócios",
+          "D": "Publicar procedimentos de escalada"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 111,
+        "question": "Que atributo é relevante para uma Atividade do Processo?",
+        "options": {
+          "A": "Suporta a definição de papéis e responsabilidades distintas",
+          "B": "Alinha-se com normas e boas práticas",
+          "C": "Provê atividades detalhadas específicas",
+          "D": "Provê declarações de ações para entregar benefícios"
+            },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 112,
+        "question": "Qual das opções é um direcionador que influencia as necessidades das partes interessadas?",
+        "options": {
+          "A": "Mudanças de estratégia",
+          "B": "Indicadores principais",
+          "C": "Recursos da empresa",
+          "D": "Boas práticas"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 113,
+        "question": "Qual é o nome do princípio de arquitetura desenhado para ser o mais direto possível sem deixar de cumprir os requisitos da empresa?",
+        "options": {
+          "A": "Reuso",
+          "B": "Agilidade",
+          "C": "Simplicidade",
+          "D": "Abertura"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 114,
+        "question": "Quem é uma parte interessada interna?",
+        "options": {
+          "A": "Acionista",
+          "B": "Regulador",
+          "C": "Proprietário do processo de negócio",
+          "D": "Parceiro de negócios"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 115,
+        "question": "Em que nível são definidas as entradas e as saídas?",
+        "options": {
+          "A": "Processo",
+          "B": "Prática de gerenciamento",
+          "C": "Atividades",
+          "D": "Atividade detalhada"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 116,
+        "question": "Por que o COBIT 5 é considerado uma estrutura integrada?",
+        "options": {
+          "A": "Ele integra os objetivos da empresa com os objetivos relacionados a TI",
+          "B": "Ele se integra a qualquer sistema de governança",
+          "C": "Ele integra objetivos relacionados a TI com facilitadores",
+          "D": "Ele se alinha com outros padrões relevantes"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 117,
+        "question": "Qual requisito foi um importante direcionador para o desenvolvimento da estrutura do COBIT 5?",
+        "options": {
+          "A": "Obter o compromisso da gestão executiva para tomada de decisões relacionadas a TI",
+          "B": "Prover mais orientações na área de inovação e tecnologias emergentes",
+          "C": "Permitir o gerenciamento de um portfólio de produtos e serviços competitivos",
+          "D": "Oferecer programas no prazo, dentro do orçamento e que atendam os requisitos das partes interessadas"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 118,
+        "question": "Que atividade deve ser feita pela governança?",
+        "options": {
+          "A": "Implementar o apetite por risco",
+          "B": "Estabelecer princípios e políticas",
+          "C": "Executar a estratégia",
+          "D": "Planejar atividades para atingir as metas da empresa"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 119,
+        "question": "Em que ordem as seguintes saídas do mecanismo dos Objetivos em cascata do COBIT 5 são produzidos? 1 . Objetivos da empresa | 2 . Necessidades das partes interessadas | 3 . Objetivos do facilitador | 4 . Objetivos relacionados a TI",
+        "options": {
+          "A": "2, 1, 4, 3",
+          "B": "1, 2, 3, 4",
+          "C": "2, 3, 1, 4",
+          "D": "3, 2, 4, 1"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 120,
+        "question": "Identifique a palavra que falta na frase abaixo. Governança refere-se a [ ? ] e à decisão entre os vários interesses de valor das partes interessadas.",
+        "options": {
+          "A": "Transformação",
+          "B": "Seleção",
+          "C": "Suporte",
+          "D": "Negociação"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 121,
+        "question": "Identifique a(s) palavra(s) que falta(m) na seguinte frase As habilidades de serviço são alavancadas primariamente através da [ ? ], para entregar serviços internos e externos.",
+        "options": {
+          "A": "Infraestrutura física",
+          "B": "Processos",
+          "C": "Objetivos de TI",
+          "D": "Políticas"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 122,
+        "question": "O que os indicadores principais monitoram no modelo Facilitador Genérico?",
+        "options": {
+          "A": "Se boas práticas estão sendo aplicadas",
+          "B": "Se as necessidades das partes interessadas estão sendo endereçadas",
+          "C": "Se os objetivos do facilitador estão sendo alcançados",
+          "D": "Se os resultados do facilitador estão sendo disponibilizados"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 123,
+        "question": "Qual item é gerado por processos de Negócios como a primeira etapa do Ciclo de informação?",
+        "options": {
+          "A": "Informação",
+          "B": "Valor",
+          "C": "Conhecimento",
+          "D": "Dado"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 124,
+        "question": "Qual informação deve constar em um caso de negócio?",
+        "options": {
+          "A": "Uma meta de melhoria para diferenças (gaps) e soluções identificadas",
+          "B": "As soluções propostas e as definições da iniciativa",
+          "C": "Uma revisão dos fatores de sucesso da iniciativa",
+          "D": "Como o investimento e a criação de valor serão monitorados durante todo o ciclo de vida econômico"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 125,
+        "question": "Qual é o domínio de processo MAIS adequado para habilidades, como gerenciamento de Projeto e gerenciamento de Capacidade?",
+        "options": {
+          "A": "Monitorar, Analisar e Avaliar (MEA)",
+          "B": "Entregar, Serviço e Suporte (DSS)",
+          "C": "Construir, Adquirir e Implementar (BAI)",
+          "D": "Alinhar, Planejar e Organizar (APO)"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 126,
+        "question": "Quando um processo pode ser classificado como nível de habilidade dois?",
+        "options": {
+          "A": "Quando todos os atributos de processo forem T – Totalmente para o nível dois",
+          "B": "O processo deve ser classificado como T – Totalmente para todos os atributos de processo de nível dois, e ser classificado como A – Amplamente no nível um",
+          "C": "O processo deve ser classificado como A – Amplamente ou T – Totalmente alcançado no nível dois e ser classificado como T – Totalmente alcançado no nível um",
+          "D": "Quando os atributos de processo dos cinco níveis de habilidade, atingirem uma pontuação média de dois"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 127,
+        "question": "O que os processos produzem para garantir implementação consistente?",
+        "options": {
+          "A": "Papéis que operam de acordo com gráficos RACI",
+          "B": "Aspectos culturais e comportamentais",
+          "C": "Políticas e procedimentos",
+          "D": "Objetivos de negócio e de TI"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 128,
+        "question": "Qual informação sobre a diferença entre a dimensão habilidade e a dimensão processo está correta?",
+        "options": {
+          "A": "A dimensão habilidade se concentra nos indicadores de atributo do processo, a dimensão processo se concentra nos processos.",
+          "B": "Os produtos de trabalho específicos são definidos na dimensão habilidade e NÃO se relacionam com a dimensão processo.",
+          "C": "A dimensão habilidade se concentra nas práticas base específicas, a dimensão processo se concentra nas práticas base genéricas.",
+          "D": "As definições de todos os processos do COBIT são a base para a dimensão habilidade e NÃO para a dimensão processo."
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 129,
+        "question": "Qual item é um requisito do elemento Estrutura dentro do modelo de princípios, políticas e estruturas?",
+        "options": {
+          "A": "Expressar os valores fundamentais da empresa",
+          "B": "Descrever o resultado desejado de um processo",
+          "C": "Ser flexível o suficiente para permitir adaptação à situação específica da empresa",
+          "D": "Prover um fluxo lógico para as equipes atenderem à estrutura"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 130,
+        "question": "Por que as dimensões do facilitador são importantes?",
+        "options": {
+          "A": "Permitem um vínculo entre Governança e Gerenciamento",
+          "B": "Facilitam o planejamento, a construção a execução e o monitoramento da TI de uma entidade",
+          "C": "Permitem que uma entidade gerencie suas interações complexas",
+          "D": "Permitem o vínculo do COBIT 5 a outras normas e estruturas"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 131,
+        "question": "Que afirmação descreve a diferença entre produtos de trabalho específicos e genéricos?",
+        "options": {
+          "A": "Os produtos de trabalho específicos são definidos em cada nível de habilidade, os produtos de trabalho genéricos são definidos no nível organizacional",
+          "B": "Os produtos de trabalho específicos são associados com objetivos relacionados a TI; produtos de trabalho genéricos são associados com os objetivos de alto nível da empresa",
+          "C": "Os produtos de trabalho específicos são definidos para cada processo; os produtos de trabalho genéricos são definidos para todos os processos genéricos do nível de habilidade 2 ao 5",
+          "D": "Os produtos de trabalho específicos definem os objetivos no nível da atividade; produtos de trabalho genéricos definem os objetivos de alto nível de um processo"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 132,
+        "question": "Qual processo está incluído no domínio de processo de Construir, Adquirir e Implementar no Gerenciamento de TI da Empresa?",
+        "options": {
+          "A": "Gerenciar a Continuidade",
+          "B": "Gerenciar as Operações",
+          "C": "Gerenciar o Risco",
+          "D": "Gerenciar a Disponibilidade e a Capacidade"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 133,
+        "question": "Qual é o nome de um mecanismo de comunicação da empresa que provê mais orientação sobre o comportamento organizacional desejado?",
+        "options": {
+          "A": "Procedimentos de escalada",
+          "B": "Declaração de ações",
+          "C": "Princípios e políticas",
+          "D": "Regras e normas"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 134,
+        "question": "Que facilitador descreve as principais entidades de tomada de decisão em uma organização?",
+        "options": {
+          "A": "Estruturas Organizacionais",
+          "B": "Processos",
+          "C": "Pessoas, habilidades e competências",
+          "D": "Princípios, políticas e estruturas"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 135,
+        "question": "Qual fator pode indicar uma necessidade para a melhoria da governança de TI da empresa?",
+        "options": {
+          "A": "Necessidade de adaptar o COBIT e outras boas práticas e padrões de suporte para se ajustarem ao contexto específico da empresa.",
+          "B": "Ocorrência de incidentes significativos relacionados ao risco de TI, como perda de dados ou fracasso do projeto.",
+          "C": "Necessidade de foco em ganhos rápidos e prioridade às melhorias mais benéficas que são as mais fáceis de se implantar.",
+          "D": "Principais papéis e responsabilidades do programa devem ser definidos e atribuídos"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 136,
+        "question": "Qual característica uma boa estrutura de política deve prover?",
+        "options": {
+          "A": "Uma estrutura de consistência",
+          "B": "Atividades detalhadas do processo",
+          "C": "Acesso a mídias sociais",
+          "D": "Confirmação de que as práticas são aplicadas"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 137,
+        "question": "Que mecanismo pode definir e implementar políticas dentro de sua amplitude de controle?",
+        "options": {
+          "A": "Estruturas organizacionais",
+          "B": "Práticas de processo",
+          "C": "Estrutura de governança",
+          "D": "Regras e normas"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 138,
+        "question": "Que atributo descreve a quantidade de informação que seja adequada para a atividade exigida?",
+        "options": {
+          "A": "Relevância",
+          "B": "Completude",
+          "C": "Quantidade apropriada de informação",
+          "D": "Facilidade de manipulação"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 139,
+        "question": "Que camada de Informação contém o atributo que inclui as regras de uso de linguagens artificiais?",
+        "options": {
+          "A": "Semântica",
+          "B": "Mundo Físico",
+          "C": "Empírica",
+          "D": "Sintática"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 140,
+        "question": "Identifique a palavra que falta na frase abaixo: A definição de [?] é um conjunto de práticas influenciadas pelas políticas e procedimentos que recebe entradas de várias fontes, manipula essas entradas e produz saídas.",
+        "options": {
+          "A": "Princípios",
+          "B": "Objetivos intrínsecos",
+          "C": "Objetivos da empresa",
+          "D": "Processos"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 141,
+        "question": "Que aspecto é fundamental para o modelo integrador do COBIT 5?",
+        "options": {
+          "A": "Relacionar a Governança ao Gerenciamento",
+          "B": "Relacionar o COBIT 5 à orientação existente da ISACA",
+          "C": "Relacionar as necessidades das partes interessadas aos objetivos da empresa",
+          "D": "Relacionar Planejar, Construir, Executar e Monitorar"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 142,
+        "question": "Identifique a palavra que falta na frase seguinte: Um dos benefícios do modelo de avaliação de habilidade do COBIT 5 é a maior confiabilidade e [ ? ] das atividades e análise do processo de avaliação de habilidade.",
+        "options": {
+          "A": "facilitação",
+          "B": "repetibilidade",
+          "C": "efetividade",
+          "D": "integridade"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 143,
+        "question": "Que termo se refere a um artefato associado à execução de um processo?",
+        "options": {
+          "A": "Propósito do Processo",
+          "B": "Produto de Trabalho",
+          "C": "Resultado do Processo",
+          "D": "Prática Base"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 144,
+        "question": "Qual NÃO é um dos propósitos do Modelo de Referência do Processo?",
+        "options": {
+          "A": "Constitui a base da avaliação da habilidade de um processo para a Dimensão Habilidade",
+          "B": "Provê o mecanismo pelo qual os Modelos de Avaliação do Processo definidos estão relacionados à estrutura de medição",
+          "C": "Provê a base para um ou mais Modelos de Avaliação do Processo",
+          "D": "Provê a base para a realização de uma avaliação na dimensão processo"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 145,
+        "question": "Que percentual representa T – Atingimento total de um atributo em um processo avaliado, como definido pela abordagem de avaliação do COBIT 5?",
+        "options": {
+          "A": "100%",
+          "B": "85% a 100%",
+          "C": "75% a 100%",
+          "D": "Em média, 85%"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "id": 146,
+        "question": "Qual item e considerado uma boa prática para ser incluída em uma estrutura de política?",
+        "options": {
+          "A": "Declarações de ações",
+          "B": "Categorias de habilidades",
+          "C": "Requisitos de conformidade",
+          "D": "Objetivos definidos"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "id": 147,
+        "question": "Que afirmação descreve a principal diferença entre Políticas e Princípios, como indica o COBIT 5?",
+        "options": {
+          "A": "Políticas fornecem orientações detalhadas para influenciar a tomada de decisão",
+          "B": "Políticas expressam os valores fundamentais da empresa",
+          "C": "Princípios são elaborados para atingir os propósitos declarados",
+          "D": "Princípios são elaborados para prover controles detalhados sobre os requisitos regulamentares"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "id": 148,
+        "question": "Que item NÃO é um requisito de uma boa política?",
+        "options": {
+          "A": "Atinge o objetivo declarado",
+          "B": "Implementada da maneira mais eficiente",
+          "C": "Não intrusiva",
+          "D": "Limitada em número"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 149,
+        "question": "Que mecanismo NÃO é considerado uma boa prática de Estruturas Organizacionais?",
+        "options": {
+          "A": "Delegação de autoridade",
+          "B": "Procedimentos de escalada",
+          "C": "Amplitude de controle",
+          "D": "Modelo de Referência do Processo"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "id": 150,
+        "question": "Qual princípio é fundamental para a governança e o gerenciamento de TI da empresa?",
+        "options": {
+          "A": "Gerenciar Operações de TI",
+          "B": "Assegurar a otimização de recursos",
+          "C": "Permitir uma abordagem holística",
+          "D": "Gerenciar a informação"
+        },
+        "correctAnswer": "C"
+      }
+    ]
+}
+  
