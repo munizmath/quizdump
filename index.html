@@ -126,7 +126,7 @@
 
         function startQuiz() {
         var quiz = document.querySelector('.quiz-option.active').textContent;
-        var quizFile = "question_" + quiz.replace(" ", "_").toLowerCase() + ".json";
+        var quizFile = "question_" + quiz.replace(/\s/g, "_").toLowerCase() + ".json";
         window.location.href = "/quiz-page.html?quiz=" + quizFile;
     }
 
