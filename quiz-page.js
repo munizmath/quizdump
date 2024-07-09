@@ -70,7 +70,7 @@
 
             document.getElementById('home-button').addEventListener('click', function() {
                 // Volte para a página inicial
-                window.location.href = 'home.html'; // Substitua '/' pelo URL da sua página inicial
+                window.location.href = 'index.html'; // Substitua '/' pelo URL da sua página inicial
             });
 
             function loadQuizData(groups) {
