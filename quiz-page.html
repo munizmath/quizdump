@@ -298,7 +298,8 @@
 
             function loadQuizData(groups) {
                 // Carregue os dados do quiz aqui (por exemplo, usando fetch() se os dados estiverem em um servidor)
-                fetch('questions_cobit.json')
+//                fetch('questions_cobit.json')
+                fetch('https://corsbypass-5jyi.onrender.com/https://example.com/questions_cobit.json')    
                     .then(response => response.json())
                         .then(data => {
                             console.log(data); // Isso imprime os dados carregados no console
