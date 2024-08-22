@@ -296,7 +296,8 @@
                 // Carregue os dados do quiz aqui (por exemplo, usando fetch() se os dados estiverem em um servidor)
                 fetch('questions_cobit.json')
                     .then(response => response.json())
-                    .then(data => {
+                        .then(data => {
+                            console.log(data); // Isso imprime os dados carregados no console
                         // Divida as perguntas em grupos de 25
                         quizData = [];
                         for (var i = 0; i < groups.length; i++) {
