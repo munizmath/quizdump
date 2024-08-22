@@ -308,6 +308,7 @@
                         showAllQuestions();
                         startCountdown(); // Mova a chamada para startCountdown() para aqui
                     });
+                .catch(error => console.error('Erro ao carregar o JSON:', error));
             }
 
             function shuffleArray(array) { // Função para embaralhar as respostas
