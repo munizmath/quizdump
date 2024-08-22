@@ -196,7 +196,7 @@
           "C": "Disponibilizar quando necessário.",
           "D": "Boas práticas podem ser definidas."
         },
-        "correctAnswer": "C"
+        "correctAnswer": "D"
       },
       {
         "id": 19,
@@ -218,7 +218,7 @@
           "C": "Objetivos.",
           "D": "Habilitadores."
         },
-        "correctAnswer": "A"
+        "correctAnswer": "C"
       },
       {
         "id": 21,
@@ -240,7 +240,7 @@
           "C": "Gerenciamento.",
           "D": "Corpo Diretivo."
         },
-        "correctAnswer": "D"
+        "correctAnswer": "C"
       },
       {
         "id": 23,
@@ -295,7 +295,7 @@
           "C": "Disponibilizar análise de lacunas e melhorias nas informações de planejamento.",
           "D": "Permitir gerenciamento de verificação de desempenho de conformidade do processo."
         },
-        "correctAnswer": "A"
+        "correctAnswer": "D"
       },
       {
         "id": 28,
@@ -306,7 +306,7 @@
           "C": "Disponibilizar práticas prescritivas.",
           "D": "Considerar as entradas e saídas dos processos."
         },
-        "correctAnswer": "D"
+        "correctAnswer": "A"
       },
       {
         "id": 29,
@@ -317,7 +317,7 @@
           "C": "Indicadores de desempenho do Processo se aplicam aos Níveis 1 a 5, enquanto os indicadores de capacidade do Processo são específicos apenas para o Nível 1.",
           "D": "Indicadores de desempenho do Processo se aplicam somente aos Níveis 0 e 1, enquanto os indicadores de capacidade do Processo se aplicam a todos os Níveis de capacidade."
         },
-        "correctAnswer": "C"
+        "correctAnswer": "D"
       },
       {
         "id": 30,
@@ -350,7 +350,7 @@
           "C": "Endereçar problemas de qualidade como novas aplicações.",
           "D": "Dar suporte com especificações de informações."
         },
-        "correctAnswer": "D"
+        "correctAnswer": "B"
       },
       {
         "id": 33,
@@ -383,7 +383,7 @@
           "C": "Descrever como ser responsável por uma avaliação baseada na ISSO/IEC 15504.",
           "D": "Prover atributos genéricos para os níveis 1, 3, 4 e 5."
         },
-        "correctAnswer": "D"
+        "correctAnswer": "B"
       },
       {
         "id": 36,
@@ -405,7 +405,7 @@
           "C": "De TI",
           "D": "De Negócio"
         },
-        "correctAnswer": "D"
+        "correctAnswer": "A"
       },
       {
         "id": 38,
@@ -427,7 +427,7 @@
           "C": "Sustentar",
           "D": "Gerenciamento do programa"
         },
-        "correctAnswer": "B"
+        "correctAnswer": "A"
       },
       {
         "id": 40,
@@ -438,7 +438,7 @@
           "C": "Boas Práticas",
           "D": "Mudanças de Negócio"
         },
-        "correctAnswer": "C"
+        "correctAnswer": "D"
       },
       {
         "id": 41,
@@ -471,7 +471,7 @@
           "C": "Indicador de atraso",
           "D": "Cultura e ética"
         },
-        "correctAnswer": "A"
+        "correctAnswer": "C"
       },
       {
         "id": 44,
@@ -482,7 +482,7 @@
           "C": "Estruturas",
           "D": "Práticas"
         },
-        "correctAnswer": "D"
+        "correctAnswer": "A"
       },
       {
         "id": 45,
@@ -493,7 +493,7 @@
           "C": "Executar o plano",
           "D": "Operar e usar"
         },
-        "correctAnswer": "B"
+        "correctAnswer": "D"
       },
       {
         "id": 46,
@@ -515,7 +515,7 @@
           "C": "Definir habilitadores que ajudem a atingir os objetivos da empresa",
           "D": "Servir como uma estrutura de apoio para a governança e gerenciamento da empresa de TI."
         },
-        "correctAnswer": "B"
+        "correctAnswer": "C"
       },
       {
         "id": 48,
@@ -559,7 +559,7 @@
           "C": "Otimização do Processo",
           "D": "Gerenciamento de Desempenho"
         },
-        "correctAnswer": "D"
+        "correctAnswer": "A"
       },
       {
         "id": 52,
@@ -614,7 +614,7 @@
           "C": "Continuidade do serviço de negócio",
           "D": "Agilidade de TI"
         },
-        "correctAnswer": "C"
+        "correctAnswer": "A"
       },
       {
         "id": 57,
@@ -636,7 +636,7 @@
           "C": "Ela identifica todos os processos de TI",
           "D": "Ele cobre toda a empresa"
         },
-        "correctAnswer": "D"
+        "correctAnswer": "C"
       },
       {
         "id": 59,
@@ -647,7 +647,7 @@
           "C": "Manutenção",
           "D": "Negócio"
         },
-        "correctAnswer": "A"
+        "correctAnswer": "B"
       },
       {
         "id": 60,
@@ -768,7 +768,7 @@
           "C": "T – Totalmente",
           "D": "A – Amplamente"
         },
-        "correctAnswer": "D"
+        "correctAnswer": "B"
       },
       {
         "id": 71,
@@ -779,7 +779,7 @@
           "C": "Desempenho",
           "D": "Conformidade"
         },
-        "correctAnswer": "C"
+        "correctAnswer": "B"
       },
       {
         "id": 72,
@@ -801,7 +801,7 @@
           "C": "Eficiência",
           "D": "Políticas"
         },
-        "correctAnswer": "A"
+        "correctAnswer": "B"
       },
       {
         "id": 74,
@@ -812,7 +812,7 @@
           "C": "Os resultados são relevantes e completos",
           "D": "As saídas estão aptas para o negócio"
         },
-        "correctAnswer": "B"
+        "correctAnswer": "A"
       },
       {
         "id": 75,
@@ -823,7 +823,7 @@
           "C": "Os papéis, responsabilidades e responsabilização relacionados à iniciativa",
           "D": "Um esboço das novas operações criadas a partir da iniciativa do programa"
         },
-        "correctAnswer": "A"
+        "correctAnswer": "C"
       },
       {
         "id": 76,
@@ -834,7 +834,7 @@
           "C": "Relacionar os processos de gerenciamento de Planejar, Construir, Executar e Monitorar",
           "D": "Relacionar as necessidades das partes interessadas com os objetivos da empresa"
         },
-        "correctAnswer": "B"
+        "correctAnswer": "A"
       },
       {
         "id": 77,
@@ -867,7 +867,7 @@
           "C": "Mundo Social",
           "D": "Mundo físico"
         },
-        "correctAnswer": "A"
+        "correctAnswer": "B"
       },
       {
         "id": 80,
@@ -889,7 +889,7 @@
           "C": "Ser aberto e flexível para garantir que as políticas atinjam o propósito estabelecido",
           "D": "Fornecer um fluxo lógico para a equipe que precise cumpri-lo"
         },
-         "correctAnswer": "A"
+         "correctAnswer": "D"
       },
       {
         "id": 82,
@@ -915,7 +915,7 @@
       },
       {
         "id": 84,
-        "question": "Como é conhecido o conjunto de práticas influenciadas elas políticas e procedimentos da empresa que recebe entradas de várias fontes, manipula essas entradas e produz saídas?",
+        "question": "Como é conhecido o conjunto de práticas influenciadas pelas políticas e procedimentos da empresa que recebe entradas de várias fontes, manipula essas entradas e produz saídas?",
         "options": {
           "A": "Processo",
           "B": "Objetivos intrínsecos",
