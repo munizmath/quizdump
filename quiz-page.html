@@ -297,12 +297,12 @@
             });
 
             function loadQuizData(groups) {
-                // Carregue os dados do quiz aqui (por exemplo, usando fetch() se os dados estiverem em um servidor)
-//                fetch('questions_cobit.json')
-                fetch('https://corsbypass-5jyi.onrender.com/https://example.com/questions_cobit.json')    
+                // Carregue os dados do quiz aqui usando fetch()
+                fetch('https://corsbypass-5jyi.onrender.com/https://example.com/questions_cobit.json')
                     .then(response => response.json())
-                        .then(data => {
-                            console.log(data); // Isso imprime os dados carregados no console
+                    .then(data => {
+                        console.log(data); // Isso imprime os dados carregados no console
+                        
                         // Divida as perguntas em grupos de 25
                         quizData = [];
                         for (var i = 0; i < groups.length; i++) {
@@ -310,12 +310,13 @@
                             var end = start + 25;
                             quizData = quizData.concat(data.questions.slice(start, end));
                         }
-
-                        showAllQuestions();
+            
+                        showAllQuestions(); // Chama a função para mostrar todas as perguntas
                         startCountdown(); // Mova a chamada para startCountdown() para aqui
-                    });
-                .catch(error => console.error('Erro ao carregar o JSON:', error));
+                    })
+                    .catch(error => console.error('Erro ao carregar o JSON:', error)); // Corrigido o encadeamento do catch
             }
+
 
             function shuffleArray(array) { // Função para embaralhar as respostas
                 for (var i = array.length - 1; i > 0; i--) {
