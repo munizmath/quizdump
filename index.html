@@ -2,181 +2,236 @@
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
-    <title>SeuQuiz - Treinamento de Dump para Provas e Certificações</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #312e2e; /* Fundo de tela ajustado para #312e2e */
-        }
-        .quiz-container {
-            background-color: white;
-            padding: 20px;
-            border-radius: 25px; /* Bordas mais arredondadas */
-            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
-            width: 90%;
-            max-width: 500px;
-            text-align: center; /* Botões de seleção de quiz centralizados */
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-        h1 span {
-            font-style: italic; /* Palavra SeuQuiz em itálico */
-        }
-        p {
-            text-align: center; /* Frase centralizada */
-        }
-        .input-field {
-            position: relative;
-            display: inline-block; /* Caixas de entrada "Nome" e "E-mail" lado a lado */
-            margin: 0 10px;
-        }
-        input[type="text"], input[type="email"] {
-            width: 100%;
-            padding: 10px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-            box-sizing: border-box; /* Faz com que o padding não aumente o tamanho total do input */
-            transition: padding 0.3s ease;
-        }
-        .quiz-option {
-            display: block;
-            width: 60%; /* Todos os botões de seleção de quiz têm o mesmo tamanho */
-            margin: 5px auto;
-            padding: 10px;
-            color: white;
-            background-color: #007BFF; /* Botões de seleção de quiz em tom de azul */
-            border: 2px solid #000; /* Arco preto ao redor dos botões de seleção de quiz */
-            border-radius: 5px;
-            text-align: center;
-            cursor: pointer;
-        }
-        .quiz-option input {
-            display: none;
-        }
-        .quiz-option.active {
-            background-color: #5b5c5e; /* Ao selecionar o botão de seleção de quiz, ele altera a sua cor para #5b5c5e e fica estática */
-        }
-        input[type="submit"] {
-            background-color: #727272; /* Cor do botão "Confirmar" alterada para #727272 */
-            color: white;
-            padding: 10px 20px;
-            margin: 10px 0;
-            border: 2px solid #007BFF; /* Arco azul ao redor do botão "Confirmar" */
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        input[type="submit"]:hover {
-            background-color: #505250;
-        }
-        #results {
-            display: none;
-        }
-        #results p {
-            color: red; /* Dados preenchidos em vermelho */
-            font-weight: bold; /* Dados preenchidos em negrito */
-        }
-        .button {
-            display: inline-block; /* Botões "Voltar" e "Iniciar" lado a lado */
-            width: 28%; /* Botões "Voltar" e "Iniciar" têm o mesmo tamanho */
-            margin: 5px 1%;
-            padding: 10px;
-            color: white;
-            background-color: #007BFF; /* Botões "Voltar" e "Iniciar" em tom de azul */
-            border: 2px solid #000; /* Arco preto ao redor dos botões "Voltar" e "Iniciar" */
-            border-radius: 5px;
-            text-align: center;
-            cursor: pointer;
-        }
-        .button:hover {
-            background-color: #2eb140;
-        }
-    </style>
-    <script>
-        function submitQuiz() {
-            var name = document.getElementById('name').value;
-            var email = document.getElementById('email').value;
-            var quiz = document.querySelector('.quiz-option.active').textContent.trim();
-
-            document.getElementById('quiz-form').style.display = 'none';
-            var results = document.getElementById('results');
-            results.innerHTML = "<h1>Verifique suas informações</h1>" +
-                                "<p>Nome: " + name + "</p>" +
-                                "<p>E-mail: " + email + "</p>" +
-                                "<p>Quiz selecionado: " + quiz + "</p>" +
-                                "<p>Horário de início: " + new Date().toLocaleTimeString() + "</p>" +
-                                "<p>O tempo para conclusão é de uma hora.</p>" +
-                                "<p>Horário de finalização: " + new Date(new Date().getTime() + 60*60000).toLocaleTimeString() + "</p>" +
-                                "<div class='button' onclick='goBack()'>Voltar</div>" +
-                                "<div class='button' onclick='startQuiz()'>Iniciar</div>";
-            results.style.display = 'block';
-        }
-
-        function goBack() {
-            document.getElementById('quiz-form').style.display = 'block';
-            document.getElementById('results').style.display = 'none';
-        }
-
-        function startQuiz() {
-            var activeQuiz = document.querySelector('.quiz-option.active');
-            var quizId = activeQuiz.id;
-            var quizFile = "questions_" + quizId + ".json";
-            window.location.href = "/quiz-page.html?quiz=" + quizFile;
+    <title>SeuQuiz - Quiz em andamento</title>
+ <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        background-color: #312e2e;
     }
 
-        window.onload = function() {
-            var quizOptions = document.querySelectorAll('.quiz-option');
-            quizOptions.forEach(function(option) {
-                option.addEventListener('click', function() {
-                    quizOptions.forEach(function(option) {
-                        option.classList.remove('active');
-                    });
-                    this.classList.add('active');
-                });
-            });
+    /* Remova a margem esquerda do quiz-container */
+    #quiz-container {
+        margin-left: 2;
+        width: 100%;
+    }
+
+    #quiz-box {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    width: calc(100% - 420px); /* Ajuste a largura para não sobrepor a sidebar */
+    margin: 2%;
+    overflow-y: auto;
+    height: 85%;
+    max-width: none;
+    margin-bottom: 1px;
+    
+    }
+
+
+    /* Defina a largura fixa para o sidebar */
+    #sidebar {
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 300px; /* Defina a largura fixa do sidebar */
+        height: 100%;
+        background-color: #f5f5f5;
+        padding: 20px;
+        box-sizing: border-box;
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Ajuste o body para alinhar itens no início */
+    body {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    /* Outros estilos permanecem os mesmos */
+    input[type="radio"], input[type="checkbox"] {
+        display: none;
+    }
+
+    label {
+        display: block;
+        background-color: #007BFF;
+        color: white;
+        padding: 10px;
+        margin: 5px 0;
+        border: 2px solid #000;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    input[type="radio"]:checked + label,
+    input[type="checkbox"]:checked + label {
+        background-color: #5b5c5e;
+    }
+
+    #countdown, #timer {
+        text-align: center;
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+    #score {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    label.correct {
+        background-color: green;
+    }
+
+    label.incorrect {
+        background-color: red;
+    }
+
+    label.partially-correct {
+        background-color: yellow;
+    }
+
+    .group-button {
+        background-color: #007BFF;
+        color: white;
+        padding: 10px;
+        margin: 5px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100px;
+        text-align: center;
+    }
+
+    .group-button:hover {
+        background-color: #0056b3;
+    }
+
+    #submit-button, #pause-button, #restart-button, #finish-button, #home-button {
+        background-color: #007BFF;
+        color: white;
+        padding: 10px;
+        margin: 5px 0;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    #pause-button[disabled], .group-button.selected {
+        background-color: #5b5c5e;
+    }
+
+    #submit-button:hover, #pause-button:hover, #restart-button:hover, #finish-button:hover, #home-button:hover {
+        background-color: #0056b3;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: center;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+
+    /* Responsividade para dispositivos móveis */
+    @media (max-width: 768px) {
+        /* Sidebar e layout geral em dispositivos móveis */
+        #sidebar {
+            position: static;
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px;
         }
-    </script>
+
+        /* Ajuste o container do quiz para ocupar toda a largura */
+        #quiz-box {
+            width: 100%;
+            margin: 5;
+            padding: 5px;
+            max-width: none;
+        }
+
+        /* Reduz o tamanho dos botões e dos textos */
+        #quiz-container {
+            font-size: 0.9em;
+        }
+
+        /* Ajusta o tamanho dos botões no sidebar para dispositivos móveis */
+        .group-button, #submit-button, #pause-button, #resume-button, #restart-button, #finish-button, #home-button {
+            width: auto;
+            font-size: 0.9em;
+            padding: 8px;
+        }
+    }
+
+    /* Limite de altura para rolar o quiz box se necessário */
+    #quiz-box {
+        overflow-y: auto;
+        max-height: 70vh;
+    }
+</style>
+
 </head>
 <body>
-
-<div class="quiz-container">
-    <form id="quiz-form" action="javascript:void(0);" onsubmit="submitQuiz()">
-        <h1>Bem-vindo ao <span>SeuQuiz</span>!</h1>
-        <p>Insira seus dados e selecione o quiz:</p>
-
-        <div class="input-field">
-            <input type="text" id="name" name="name" placeholder="Nome" required>
+    <div id="sidebar">
+        <h1>QUIZ TECH<h1> 
+        <h2>Tempo total:</h2>
+        <div id="timer">00:00</div>
+        <button id="pause-button">Pausar</button>
+        <button id="resume-button" style="display: none;">Retomar</button>
+        <table>
+            <tr>
+                <td>Certas</td>
+                <td id="correct-counter">0</td>
+            </tr>
+            <tr>
+                <td>Erradas</td>
+                <td id="incorrect-counter">0</td>
+            </tr>
+        </table>
+        <p id="status-message">Selecione os quizes para começar</p>
+        <button id="submit-button">Enviar Respostas</button>
+        <div id="group-buttons">
+            <button class="group-button" onclick="selectPart(1)">Grupo 1</button>
+            <button class="group-button" onclick="selectPart(2)">Grupo 2</button>
+            <button class="group-button" onclick="selectPart(3)">Grupo 3</button>
+            <button class="group-button" onclick="selectPart(4)">Grupo 4</button>
+            <button class="group-button" onclick="selectPart(5)">Grupo 5</button>
+            <button class="group-button" onclick="selectPart(6)">Grupo 6</button>
         </div>
+        <button id="restart-button" onclick="resetParts()">Reiniciar Quiz</button>
+        <button id="finish-button">Finalizar Quiz</button>
+        <button id="home-button">Voltar à Página Inicial</button>
+    </div>
 
-        <div class="input-field">
-            <input type="email" id="email" name="email" placeholder="E-mail" required>
-        </div><p></p>
-
-        <!-- Botões de seleção de quiz -->
-        <!-- Em um cenário real, provavelmente seriam botões de rádio ou um dropdown -->
-        <div class="quiz-option" id="aws">
-            AWS Cloud Practitioner
+    <div id="quiz-box">
+        <div id="quiz-container">
+            <!-- O conteúdo do quiz será gerado dinamicamente aqui -->
         </div>
-        <div class="quiz-option" id="azure">
-            MS Azure Fundamentals
-        </div>
-        <div class="quiz-option" id="cobit">
-            COBIT 5 Foundation
-        </div><p></p><p></p>
+    </div>
 
-        <!-- Botão de confirmação -->
-        <input type="submit" value="CONFIRMAR">
-    </form>
-
-    <div id="results" style="display:none;"></div>
-</div>
-
+    <!-- Inclui o JavaScript ao final do corpo para garantir que o HTML seja carregado primeiro -->
+    <script src="quiz.js"></script>
 </body>
 </html>
