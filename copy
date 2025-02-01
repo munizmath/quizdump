@@ -1,0 +1,174 @@
+pip install keyboard pystray pillow plyer ttkbootstrap cryptography psutil
+
+import os
+import json
+import base64
+import sys
+import threading
+import tkinter as tk
+from tkinter import ttk, messagebox
+import keyboard
+import psutil
+import pystray
+from pystray import MenuItem as item, Icon, Menu
+from PIL import Image, ImageDraw
+from plyer import notification
+import ttkbootstrap as ttk
+from cryptography.fernet import Fernet
+import winreg
+
+# Configurações
+JSON_FILE = "atalhos.json"
+KEY_FILE = "key.key"
+
+# Lista de atalhos válidos
+ATALHOS = [
+    "ctrl+alt+k", "ctrl+alt+m", "ctrl+alt+n",
+    "ctrl+shift+x", "ctrl+shift+z", "ctrl+shift+j",
+    "alt+shift+q", "alt+shift+w", "alt+shift+e",
+    "alt+ctrl+y", "alt+ctrl+u", "alt+ctrl+i"
+]
+
+# Criar chave AES se não existir
+if not os.path.exists(KEY_FILE):
+    key = Fernet.generate_key()
+    with open(KEY_FILE, "wb") as f:
+        f.write(key)
+
+# Carregar chave AES
+with open(KEY_FILE, "rb") as f:
+    key = f.read()
+cipher = Fernet(key)
+
+# Verifica se outra instância está rodando
+def check_single_instance():
+    current_pid = os.getpid()
+    for proc in psutil.process_iter(attrs=['pid', 'name']):
+        if proc.info['name'] in ["python.exe", "pythonw.exe"] and proc.info['pid'] != current_pid:
+            messagebox.showerror("Erro", "A aplicação já está em execução!")
+            sys.exit()
+
+# Criar JSON inicial se não existir
+def criar_json():
+    if not os.path.exists(JSON_FILE):
+        atalhos_data = {atalho: {"ativo": False, "texto": "", "oculto": False} for atalho in ATALHOS}
+        with open(JSON_FILE, "w") as f:
+            json.dump(atalhos_data, f, indent=4)
+
+# Carregar dados do JSON
+def carregar_json():
+    if os.path.exists(JSON_FILE):
+        with open(JSON_FILE, "r") as f:
+            return json.load(f)
+    return {atalho: {"ativo": False, "texto": "", "oculto": False} for atalho in ATALHOS}
+
+# Salvar os dados no JSON
+def salvar_json():
+    atalhos_data = {}
+    for atalho, (chk_var, text_entry, oculto_var) in campos.items():
+        texto = text_entry.get()
+        if oculto_var.get():
+            texto = cipher.encrypt(texto.encode()).decode()  # Criptografar com AES
+        atalhos_data[atalho] = {
+            "ativo": chk_var.get(),
+            "texto": texto,
+            "oculto": oculto_var.get()
+        }
+    with open(JSON_FILE, "w") as f:
+        json.dump(atalhos_data, f, indent=4)
+    notification.notify(title="Sucesso", message="Atalhos salvos!", timeout=2)
+
+# Carregar os dados salvos para a interface
+def carregar_dados():
+    atalhos_data = carregar_json()
+    for atalho, (chk_var, text_entry, oculto_var) in campos.items():
+        chk_var.set(atalhos_data[atalho]["ativo"])
+        texto = atalhos_data[atalho]["texto"]
+        if atalhos_data[atalho]["oculto"]:
+            texto = cipher.decrypt(texto.encode()).decode()  # Descriptografar AES
+        text_entry.delete(0, tk.END)
+        text_entry.insert(0, texto)
+        oculto_var.set(atalhos_data[atalho]["oculto"])
+    notification.notify(title="Sucesso", message="Dados carregados!", timeout=2)
+
+# Aplicar atalhos globais
+def ativar_atalhos():
+    atalhos_data = carregar_json()
+    for atalho, dados in atalhos_data.items():
+        if dados["ativo"]:
+            keyboard.add_hotkey(atalho, lambda t=dados["texto"]: keyboard.write(t))
+
+# Criar ícone na bandeja
+def criar_icone():
+    img = Image.new("RGB", (64, 64), (255, 255, 255))
+    draw = ImageDraw.Draw(img)
+    draw.rectangle((10, 10, 54, 54), fill="black")
+    menu = Menu(item("Abrir", restaurar), item("Fechar", fechar_app))
+    tray_icon = Icon("Atalhos", img, "Gerador de Atalhos", menu)
+    tray_icon.run()
+
+# Minimizar para a bandeja
+def minimizar():
+    root.withdraw()
+    threading.Thread(target=criar_icone, daemon=True).start()
+
+# Restaurar aplicação
+def restaurar(icon, item):
+    root.deiconify()
+    icon.stop()
+
+# Fechar aplicação
+def fechar_app(icon, item):
+    icon.stop()
+    root.quit()
+
+# Adicionar ao iniciar com Windows
+def adicionar_inicio():
+    key = r"Software\Microsoft\Windows\CurrentVersion\Run"
+    with winreg.OpenKey(winreg.HKEY_CURRENT_USER, key, 0, winreg.KEY_SET_VALUE) as reg:
+        winreg.SetValueEx(reg, "GeradorAtalhos", 0, winreg.REG_SZ, os.path.abspath(sys.argv[0]))
+    messagebox.showinfo("Sucesso", "Aplicação configurada para iniciar com o Windows.")
+
+# Remover da inicialização
+def remover_inicio():
+    key = r"Software\Microsoft\Windows\CurrentVersion\Run"
+    with winreg.OpenKey(winreg.HKEY_CURRENT_USER, key, 0, winreg.KEY_SET_VALUE) as reg:
+        winreg.DeleteValue(reg, "GeradorAtalhos")
+    messagebox.showinfo("Sucesso", "Aplicação removida da inicialização.")
+
+# Configuração da interface
+check_single_instance()
+root = ttk.Window(themename="darkly")
+root.title("Gerador de Atalhos")
+root.geometry("520x500")
+root.protocol("WM_DELETE_WINDOW", minimizar)
+
+campos = {}
+frame = ttk.Frame(root)
+frame.pack(pady=10, fill="both", expand=True)
+
+for i, atalho in enumerate(ATALHOS):
+    chk_var = tk.BooleanVar()
+    oculto_var = tk.BooleanVar()
+    chk_btn = ttk.Checkbutton(frame, text=atalho, variable=chk_var)
+    entry = ttk.Entry(frame, width=30)
+    oculto_chk = ttk.Checkbutton(frame, text="Ocultar", variable=oculto_var)
+    
+    chk_btn.grid(row=i, column=0, sticky="w", padx=5, pady=2)
+    entry.grid(row=i, column=1, padx=5, pady=2)
+    oculto_chk.grid(row=i, column=2, padx=5, pady=2)
+
+    campos[atalho] = (chk_var, entry, oculto_var)
+
+# Botões
+btn_frame = ttk.Frame(root)
+btn_frame.pack(pady=10, fill="x")
+
+ttk.Button(btn_frame, text="Carregar", command=carregar_dados).pack(side="left", padx=5)
+ttk.Button(btn_frame, text="Executar", command=salvar_json).pack(side="right", padx=5)
+ttk.Button(root, text="Iniciar com Windows", command=adicionar_inicio).pack(pady=5)
+ttk.Button(root, text="Remover do Windows", command=remover_inicio).pack(pady=5)
+
+criar_json()
+ativar_atalhos()
+root.mainloop()
